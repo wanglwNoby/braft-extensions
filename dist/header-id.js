@@ -446,7 +446,7 @@ var getHeaderRenderMap = function getHeaderRenderMap(_ref) {
       }
 
       return {
-        start: "<".concat(headerTypeTagMap[blockType], " id=\"").concat(id || block.key, "\"").concat(blockStyle, ">"),
+        start: "<".concat(headerTypeTagMap[blockType], " id=\"").concat(id || block.key, "\"").concat(" data-role=\"1\"").concat(blockStyle, ">"),
         end: "</".concat(headerTypeTagMap[blockType], ">")
       };
     }
